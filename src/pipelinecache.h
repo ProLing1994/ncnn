@@ -111,7 +111,7 @@ public:
         VkPipelineLayout pipeline_layout;
         VkPipeline pipeline;
         VkDescriptorUpdateTemplateKHR descriptor_update_template;
-        ShaderInfo shader_info;// TODO use pointer ?
+        ShaderInfo shader_info; // TODO use pointer ?
     };
 
     std::vector<pipeline_cache_digest> cache_digests;
